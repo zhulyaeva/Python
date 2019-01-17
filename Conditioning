@@ -1,0 +1,11 @@
+The elif statement, short for else if, allows us to check additional conditions if the preceding condition is false. If the condition is true, the alternate expressions will be run. Consider the concert example, if the individual is 18, they will go to the Pink Floyd concert instead of attending the ACDC or Meat Loaf concerts. The person of 18 years of age enters the area as they are not over 19 years of age. They cannot see ACDC but as their 18 years, they attend Pink Floyd. After seeing Pink Floyd, they move on. The syntax of the else if statement is similar. We simply add the statement else if with the condition. We then add the expression we would like to execute if the statement is true with an indent.
+An illustration of the elif in Python:
+
+age=18
+if(age>18):
+   print("you can enter")
+elif(age==18):
+   print("go see Pink Floyed")
+else:
+   print("go see Meat Loaf")
+print("move on")
